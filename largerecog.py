@@ -52,6 +52,7 @@ def get_large_audio_transcription(path):
                 print(chunk_filename, ":", text)
                 whole_text += text
     # return the text for all chunks detected
+    ######################################
     return whole_text
 path = "male.wav"
 print("\nFull text:", get_large_audio_transcription(path))
